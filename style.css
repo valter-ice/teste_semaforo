@@ -1,0 +1,30 @@
+.semaforo {
+    width: 140px;
+    height: 400px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.semaforo div {
+    width: 120px;
+    height: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 100px;
+    background: gray;
+    opacity: 0.3;
+}
+
+.semaforo .fechado {
+    background-color: red;
+}
+.semaforo .aguarde {
+    background-color: orange;
+}
+.semaforo .aberto {
+    background-color: green;
+}
+.semaforo .ligado {
+    opacity: 1;
+}
